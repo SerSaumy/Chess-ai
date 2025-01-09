@@ -1,5 +1,3 @@
-# chess_engine/board.py
-
 def initialize_board():
     board = [
         ['r', 'n', 'b', 'q', 'k', 'b', 'n', 'r'],
@@ -13,7 +11,10 @@ def initialize_board():
     ]
     return board
 
-
 def print_board(board):
-    for row in board:
-        print(" ".join(row))
+    print("  a b c d e f g h")
+    print(" +----------------")
+    for i, row in enumerate(board):
+        print(f"{8 - i}|{' '.join(row)}|{8 - i}")
+    print(" +----------------")
+    print("  a b c d e f g h")
