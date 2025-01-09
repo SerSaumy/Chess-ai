@@ -1,0 +1,16 @@
+# requirements.txt
+
+# General dependencies
+numpy==1.24.0          # For numerical operations
+matplotlib==3.7.1      # For plotting (optional, for visualization of board or AI progress)
+pytest==7.4.0          # For testing
+pygame==2.5.0          # For graphical interface (optional, if you're building one)
+
+# Reinforcement learning (optional, for future use)
+tensorflow==2.13.0    # If you plan to use deep learning models
+torch==2.1.0           # PyTorch (optional for reinforcement learning)
+
+# Chess-specific libraries
+python-chess==1.999    # A library for handling chess logic
+
+# Other dependencies as needed

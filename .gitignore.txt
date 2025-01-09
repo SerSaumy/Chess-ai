@@ -1,9 +1,18 @@
+# Ignore pytest cache
 .pytest_cache/
+
+# Ignore Python bytecode files
 __pycache__/
 *.pyc
 *.pyo
+
+# Ignore IDE settings
 .idea/
 .vscode/
+
+# Ignore environment variables and log files
 .env/
 *.log
+
+# Ignore backup files
 *.bak
