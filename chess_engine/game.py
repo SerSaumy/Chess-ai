@@ -1,6 +1,3 @@
-# chess_engine/game.py
-
-# chess_engine/game.py
 
 from chess_engine.board import initialize_board, print_board  # Use absolute import
 from .moves import generate_rook_moves, generate_knight_moves, generate_bishop_moves, generate_queen_moves, generate_king_moves, generate_pawn_moves
